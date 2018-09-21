@@ -25,8 +25,7 @@ app.get('/', (req, res) => {
 })
 
 app.post('/transferMoney', (req, res) => {
-    // console.log()
     res.send(`Money ${req.body.amount} transfered succefully to ${req.body.to}`)
 })
 
-app.listen(3500, () => console.log('app listening on $3.500'))
+app.listen(3000, () => console.log('app listening on 3000'))
